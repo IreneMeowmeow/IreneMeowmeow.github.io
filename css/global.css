@@ -1,0 +1,132 @@
+/* st = standaard text, niks bijzonders. */
+/* tl = toelichting, opmerkingen onder werk. */
+/* pt = piece titel, titel van een specifiek werk. */
+/* sb = small button, voor de sidebar*/
+/* bb = big button*/
+/* bl = blurb, voor op zwarte achtergrond */
+
+body {
+	background: #7AC2E8;
+}
+
+p.bl {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p.st {
+	text-align: center;
+}
+
+p.tl {
+	text-align: center;
+	font-size: 17px;
+	font-style: italic;
+	color: #777777;
+}
+
+#sb {
+	color: #000000;
+	background: #FFFFFF;
+	padding: 0px;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	display: block;
+    width: 100%;
+}
+#sb:hover {
+	color: #FFFFFF;
+	background: #000000;
+}
+#sb:active {
+	color: #000000;
+}
+
+#bb {
+	color: #FFFFFF; 
+	padding: 5px; 
+	border-radius: 0px;    
+	border: 0px solid #000000; 
+	background: #FDA221;
+	font-size: 30px;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+}
+#bb:hover {
+	color: #FFFFFF; 
+	background: #B52200;
+	
+}
+#bb:active {
+	background: #003453; 
+}
+
+#pt {
+	font-size: 30px;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+#titel {
+	color: #FFFFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 40px;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+#subtitel {
+	color: #FFFFFF;
+	background: #FDA221;
+	text-align:center;
+	width: 30%;
+	margin: auto;
+	font-size: 40px;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+#menu {
+	display: inline-block;
+	background-color: #000000;
+	width: 9%;
+	border: 15px solid #B52200;
+	padding: 0px;
+	margin: auto;
+	position: fixed;
+}
+
+#main {
+	width: 72%;
+	background-color: #000000;
+	border: 0px solid #B52200;
+	padding: 20px;
+	margin: auto;
+}
+
+#piece {
+	text-align:center;
+	margin: auto;
+	background-color: #FFFFFF;
+	border: 15px solid #B52200;
+	padding: 20px;
+	width: 70%;
+}
+
+#illupiece {
+	text-align:center;
+	margin: auto;
+	background-color: #FFFFFF;
+	border: 15px solid #B52200;
+	padding: 20px;
+	width: 50%;
+}
