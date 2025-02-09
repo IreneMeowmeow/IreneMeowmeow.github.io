@@ -5,6 +5,11 @@
 /* bb = big button*/
 /* bl = blurb, voor op zwarte achtergrond */
 
+@font-face {
+	font-family: "Roboto Slab";
+	src: url("../fonts/RobotoSlab-VariableFont_wght.ttf")
+}
+
 body {
 	background: #7AC2E8;
 }
