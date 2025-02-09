@@ -12,10 +12,14 @@ body {
 p.bl {
 	color: #FFFFFF;
 	text-align: center;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
 }
 
 p.st {
 	text-align: center;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
 }
 
 p.tl {
@@ -23,6 +27,8 @@ p.tl {
 	font-size: 17px;
 	font-style: italic;
 	color: #777777;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
 }
 
 #sb {
